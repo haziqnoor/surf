@@ -130,11 +130,12 @@ static SearchEngine searchengines[] = {
        { "a",   "https://wiki.archlinux.org/index.php/Special:Search?search=%s&go=Go"  },
        { "y",   "http://www.youtube.com/results?search_query=%s&aq=f"  },
        { "tpb",   "https://thepiratebay.org/search/%s/"  },
-       { "yts",   "https://yts.pe/browse-movies/%s"  },
+       { "yts",   "https://yts.ag/browse-movies/%s"  },
        { "lt",   "https://www.limetorrents.cc/search/all/%s/"  },
        { "imdb",   "http://www.imdb.com/find?ref_=nv_sr_fn&q=%s&s=all"  },
        { "dbp",   "http://prpm.dbp.gov.my/Search.aspx?k=%s"  },
        { "forvo",   "http://forvo.com/search/%s/"  },
+       { "sub",   "https://subscene.com/subtitles/title?q=%s&l="  },
 };
 
 /* simple bookmarking, redux */
