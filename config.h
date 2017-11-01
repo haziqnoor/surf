@@ -31,7 +31,7 @@ static Parameter defconfig[ParameterLast] = {
 	[FrameFlattening]     =       { { .i = 0 },     },
 	[Geolocation]         =       { { .i = 0 },     },
 	[HideBackground]      =       { { .i = 0 },     },
-	[Inspector]           =       { { .i = 0 },     },
+	[Inspector]           =       { { .i = 1 },     },
 	[Java]                =       { { .i = 1 },     },
 	[JavaScript]          =       { { .i = 1 },     },
 	[KioskMode]           =       { { .i = 0 },     },
@@ -125,16 +125,16 @@ static SiteSpecific certs[] = {
 /* search engines */
 static SearchEngine searchengines[] = {
        { "d", "https://duckduckgo.com/?q=%s"       },
-       { "g",   "http://www.google.de/search?q=%s"   },
+       { "g",   "https://www.google.com/search?q=%s"   },
        { "w",   "https://en.wikipedia.org/wiki/index.php/Special:Search?search=%s&go=Go"  },
        { "a",   "https://wiki.archlinux.org/index.php/Special:Search?search=%s&go=Go"  },
-       { "y",   "http://www.youtube.com/results?search_query=%s&aq=f"  },
+       { "y",   "https://www.youtube.com/results?search_query=%s&aq=f"  },
        { "tpb",   "https://thepiratebay.org/search/%s/"  },
        { "yts",   "https://yts.ag/browse-movies/%s"  },
        { "lt",   "https://www.limetorrents.cc/search/all/%s/"  },
        { "imdb",   "http://www.imdb.com/find?ref_=nv_sr_fn&q=%s&s=all"  },
        { "dbp",   "http://prpm.dbp.gov.my/Search.aspx?k=%s"  },
-       { "forvo",   "http://forvo.com/search/%s/"  },
+       { "forvo",   "https://forvo.com/search/%s/"  },
        { "sub",   "https://subscene.com/subtitles/title?q=%s&l="  },
 };
 
