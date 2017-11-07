@@ -1,8 +1,8 @@
 /* modifier 0 means no modifier */
 static int surfuseragent    = 0;  /* Append Surf version to default WebKit user agent */
 static char *fulluseragent  = "Mozilla/5.0 (Windows NT 6.1) "
-                              "AppleWebKit/537.15 (KHTML, like Gecko) "
-                              "Chrome/24.0.1295.0 Safari/537.15";
+                              "AppleWebKit/537.36 (KHTML, like Gecko) "
+                              "Chrome/41.0.2228.0 Safari/537.36";
 static char *scriptfile     = "~/.surf/script.js";
 static char *styledir       = "~/.surf/styles/";
 static char *certdir        = "~/.surf/certificates/";
@@ -22,9 +22,9 @@ static Parameter defconfig[ParameterLast] = {
 	[AccessWebcam]        =       { { .i = 0 },     },
 	[Certificate]         =       { { .i = 0 },     },
 	[CaretBrowsing]       =       { { .i = 0 },     },
-	[CookiePolicies]      =       { { .v = "@Aa" }, },
+	[CookiePolicies]      =       { { .v = "a@A" }, },
 	[DefaultCharset]      =       { { .v = "UTF-8" }, },
-	[DiskCache]           =       { { .i = 1 },     },
+	[DiskCache]           =       { { .i = 0 },     },
 	[DNSPrefetch]         =       { { .i = 0 },     },
 	[FileURLsCrossAccess] =       { { .i = 0 },     },
 	[FontSize]            =       { { .i = 16 },    },
@@ -32,12 +32,12 @@ static Parameter defconfig[ParameterLast] = {
 	[Geolocation]         =       { { .i = 0 },     },
 	[HideBackground]      =       { { .i = 0 },     },
 	[Inspector]           =       { { .i = 1 },     },
-	[Java]                =       { { .i = 1 },     },
-	[JavaScript]          =       { { .i = 1 },     },
+	[Java]                =       { { .i = 0 },     },
+	[JavaScript]          =       { { .i = 0 },     },
 	[KioskMode]           =       { { .i = 0 },     },
 	[LoadImages]          =       { { .i = 1 },     },
 	[MediaManualPlay]     =       { { .i = 1 },     },
-	[Plugins]             =       { { .i = 1 },     },
+	[Plugins]             =       { { .i = 0 },     },
 	[PreferredLanguages]  =       { { .v = (char *[]){ NULL } }, },
 	[RunInFullscreen]     =       { { .i = 0 },     },
 	[ScrollBars]          =       { { .i = 1 },     },
