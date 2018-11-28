@@ -22,7 +22,7 @@ one can point surf to another URI by setting its XProperties.
 .B \-a cookiepolicies
 Define the order of
 .I cookie policies\fR.
-The default is "@Aa" but could be
+The default is "a@A" but could be
 redefined in the
 .IR config.h ,
 with "A" meaning to
@@ -155,7 +155,7 @@ Scrolls page downwards.
 .B Ctrl\-b
 Scroll up one whole page view.
 .TP
-.B Ctrl\-Space
+.B Ctrl\-f
 Scroll down one whole page view.
 .TP
 .B Ctrl\-i
@@ -170,10 +170,7 @@ Zooms page in.
 .B Ctrl\-Shift\-j or Ctrl\--
 Zooms page out.
 .TP
-.B Ctrl\-Shift\-q
-Resets Zoom.
-.TP
-.B Ctrl\-f and Ctrl\-/
+.B Ctrl\-/
 Opens the search-bar.
 .TP
 .B Ctrl\-n
@@ -200,6 +197,12 @@ Reloads the website without using the cache.
 .B Ctrl\-y
 Copies current URI to primary selection.
 .TP
+.B Ctrl\-q
+Pick from bookmarks.
+.TP
+.B Ctrl\-Shift\-q
+Add current page to bookmarks.
+.TP
 .B Ctrl\-t
 Display the current TLS certificate in a popup window.
 .TP
@@ -208,19 +211,6 @@ Toggle through the the
 .I cookie policies\fR.
 This will not reload the page.
 .TP
-.B Ctrl\-Shift\-b
-Toggle scrollbars. This will reload the page.
-.TP
-.B Ctrl\-Shift\-c
-Toggle caret browsing. This will reload the page.
-.TP
-.B Ctrl\-Shift\-i
-Toggle auto-loading of images. This will reload the page.
-.TP
-.B Ctrl\-Shift\-m
-Toggle if the
-.I stylefile
-file should be loaded. This will reload the page.
 .TP
 .B Ctrl\-Shift\-o
 Open the Web Inspector (Developer Tools) window for the current page.
@@ -230,10 +220,6 @@ Toggle script execution. This will reload the page.
 .TP
 .B Ctrl\-Shift\-t
 Toggle strict TLS check. This will reload the page.
-.TP
-.B Ctrl\-Shift\-v
-Toggle the enabling of plugins on that surf instance. This will reload the
-page.
 .TP
 .B F11
 Toggle fullscreen mode.
