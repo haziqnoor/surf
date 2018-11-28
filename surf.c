@@ -96,6 +96,11 @@ typedef struct {
 	int prio;
 } Parameter;
 
+typedef struct {
+    char *token;
+    char *uri;
+} SearchEngine;
+
 typedef struct Client {
 	GtkWidget *win;
 	WebKitWebView *view;

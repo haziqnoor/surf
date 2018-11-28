@@ -2,6 +2,11 @@ surf - simple webkit-based browser
 ==================================
 surf is a simple Web browser based on WebKit/GTK+.
 
+Patches I did
+-------------
+search engines[2]
+Simple bookmarking, redux[3]
+
 Requirements
 ------------
 In order to build surf you need GTK+ and Webkit/GTK+ header files.
@@ -11,7 +16,7 @@ In order to use the functionality of the url-bar, also install dmenu[0].
 Installation
 ------------
 Edit config.mk to match your local setup (surf is installed into
-the /usr/local namespace by default).
+the /usr/local namespace by default; I edited it to /usr).
 
 Afterwards enter the following command to build and install surf (if
 necessary as root):
@@ -37,4 +42,6 @@ instance of tabbed.
 
 [0] http://tools.suckless.org/dmenu
 [1] http://tools.suckless.org/tabbed
+[2] http://surf.suckless.org/patches/searchengines
+[3] http://surf.suckless.org/files/simple_bookmarking_redux
 
