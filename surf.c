@@ -134,11 +134,6 @@ typedef struct {
 } Button;
 
 typedef struct {
-    char *token;
-    char *uri;
-} SearchEngine;
-
-typedef struct {
 	const char *uri;
 	Parameter config[ParameterLast];
 	regex_t re;

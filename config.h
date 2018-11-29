@@ -128,7 +128,6 @@ static SearchEngine searchengines[] = {
     { "d", "https://duckduckgo.com/?q=%s"       },
     { "g",   "http://www.google.de/search?q=%s"   },
     { "w",   "https://en.wikipedia.org/wiki/index.php/Special:Search?search=%s&go=Go"  },
-    { "a",   "https://wiki.archlinux.org/index.php/Special:Search?search=%s&go=Go"  },
     { "y",   "http://www.youtube.com/results?search_query=%s&aq=f"  },
     { "tpb",   "https://thepiratebay.org/search/%s/"  },
     { "yts",   "https://yts.am/browse-movies/%s"  },
@@ -136,6 +135,7 @@ static SearchEngine searchengines[] = {
     { "imdb",   "http://www.imdb.com/find?ref_=nv_sr_fn&q=%s&s=all"  },
     { "dbp",   "http://prpm.dbp.gov.my/Search.aspx?k=%s"  },
     { "forvo",   "http://forvo.com/search/%s/"  },
+    { "lyrics",   "https://search.azlyrics.com/search.php?q=%s"  },
 };
 
 /* simple bookmarking */
