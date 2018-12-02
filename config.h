@@ -131,11 +131,12 @@ static SearchEngine searchengines[] = {
     { "y",   "http://www.youtube.com/results?search_query=%s&aq=f"  },
     { "tpb",   "https://thepiratebay.org/search/%s/"  },
     { "yts",   "https://yts.am/browse-movies/%s"  },
-    { "lt",   "https://www.limetorrents.cc/search/all/%s/"  },
+    { "lime",   "https://www.limetorrents.cc/search/all/%s/"  },
     { "imdb",   "http://www.imdb.com/find?ref_=nv_sr_fn&q=%s&s=all"  },
     { "dbp",   "http://prpm.dbp.gov.my/Search.aspx?k=%s"  },
     { "forvo",   "http://forvo.com/search/%s/"  },
     { "lyrics",   "https://search.azlyrics.com/search.php?q=%s"  },
+    { "subtitles",   "https://subscene.com/subtitles/title?q=%s&l="  },
 };
 
 /* simple bookmarking */
