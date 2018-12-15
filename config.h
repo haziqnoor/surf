@@ -1,8 +1,8 @@
 /* modifier 0 means no modifier */
 static int surfuseragent    = 1;  /* Append Surf version to default WebKit user agent */
-static char *fulluseragent  = "Mozilla/5.0 (Windows NT 6.1) "
-                              "AppleWebKit/537.15 (KHTML, like Gecko) "
-                              "Chrome/24.0.1295.0 Safari/537.15";
+static char *fulluseragent  = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                              "AppleWebKit/537.36 (KHTML, like Gecko) "
+                              "Chrome/70.0.3538.77 Safari/537.36";
 static char *scriptfile     = "~/.surf/script.js";
 static char *styledir       = "~/.surf/styles/";
 static char *certdir        = "~/.surf/certificates/";
